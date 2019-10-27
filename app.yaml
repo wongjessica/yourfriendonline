@@ -1,0 +1,36 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /helpbot
+  static_files: www/helpbot/helpbot.html
+  upload: www/helpbot/helpbot.html
+
+- url: /bliss
+  static_files: www/bliss/bliss.html
+  upload: www/bliss/bliss.html
+
+- url: /helpbot/helpbot.html
+  static_files: www/helpbot/helpbot.html
+  upload: www/helpbot/helpbot.html
+
+- url: /bliss/bliss.html
+  static_files: www/bliss/bliss.html
+  upload: www/bliss/bliss.html
+
+- url: /helpbot.html
+  static_files: www/helpbot/helpbot.html
+  upload: www/helpbot/helpbot.html
+
+- url: /bliss.html
+  static_files: www/bliss/bliss.html
+  upload: www/bliss/bliss.html
+  
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)

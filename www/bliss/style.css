@@ -1,0 +1,216 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; 
+    box-sizing: border-box;
+    font-size: 120%;
+    background-color: #F9C6D1;
+    height: 100%;
+    padding: 20px 10px;
+  }
+  
+  textarea:hover, 
+  input:hover, 
+  textarea:active, 
+  input:active, 
+  textarea:focus, 
+  input:focus,
+  button:focus,
+  button:active,
+  button:hover {
+    outline:0px !important;
+    -webkit-appearance:none;
+  }
+  
+  #wrapper {
+    max-width: 800px;
+    text-align: left;
+    margin: 0px auto;
+    background-color: rgb(200, 232, 245);
+    border: 8px double white;
+    border-radius: 20px;
+    height: 80%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  #introduction {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  #chat-area{
+    height: 85%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #compose-area {
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    margin:0; 
+    left: 0;
+    display:none;
+  }
+  
+  textarea {
+    position:absolute;
+    padding:20px 20px;
+    background:rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-top:-50px;
+    box-sizing: border-box;
+    border: 4px double rgb(255, 0, 98);
+    height: 70%;
+    width: 90%;
+    font-size: 100%;
+    padding: .5em 10% .5em 2%;
+  }
+  
+  #sendButton { 
+    position: absolute;
+    margin-left: 725px;
+    margin-top:-20px; 
+    
+  }
+  
+  button {
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    margin:1;
+    font-size: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+  
+  #startButton {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 5px black;
+    max-width: 200px;
+    cursor: pointer;
+    background-color: seashell;
+  }
+  
+  #robot {
+    margin: 0 auto;
+    width: 200px;
+  }
+  
+  #cursor {
+    position: relative;
+    top: 4px;
+    left: 2px;
+  }
+  
+  .chat-container {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  
+  .chat-wrapper {
+    position: relative;
+    height: 100%;
+    
+  }
+  
+  .avatar {
+    position: absolute;
+    top: 0px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    
+  }
+  
+  .avatar-bot {
+    left: -15px;
+    background-image: url("https://cdn.glitch.com/c4f50cda-3d18-4218-993e-34241948acc9%2Fbliss.png?v=1572143666608");
+  }
+  
+  .avatar-user {
+    right: -15px;
+    background-image: url("https://www.gfxmag.com/wp-content/uploads/2018/03/2764-red-heart-emoji-icon-vector-symbol-1.png");
+  }
+  
+  .chat-bot {
+    background-color: rgb(255, 255, 255);
+    padding: 7px 15px;
+    float: left;
+    width: 60%;
+    margin: 0px 36% 15px 4%;
+    border-radius: 0px 20px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: -3px 3px darkgrey;
+    min-height: 2em;
+  }
+  
+  .chat-user {
+    background-color: rgb(253, 213, 240);
+    padding: 7px 15px;
+    text-align: right;
+    border-radius: 20px 0px 20px 20px;
+    float: left;
+    width: 60%;
+    margin: 0px 4% 15px 36%;
+    box-sizing: border-box;
+    box-shadow: 3px 3px #C4B7E1;
+    min-height: 2em;
+  }
+
+  ::-webkit-scrollbar {
+    width: 9px;
+    height: 5px;
+    border-left:1px solid #ccc;
+    background-color:white;
+    }
+     
+    ::-webkit-scrollbar-thumb {
+    background: rgb(255, 164, 184);
+  }
+
+    /*** Works on common browsers ***/
+    ::selection {
+        background-color: rgb(253, 213, 240);
+        color: rgb(253, 213, 240);
+    }
+
+    /*** Mozilla based browsers ***/
+    ::-moz-selection {
+        background-color: rgb(253, 213, 240);
+        color: rgb(253, 213, 240);
+    }
+
+    /***For Other Browsers ***/
+    ::-o-selection {
+        background-color: rgb(253, 213, 240);
+        color: rgb(253, 213, 240);
+    }
+
+    ::-ms-selection {
+        background-color: rgb(253, 213, 240);
+        color: rgb(253, 213, 240);
+    }
+
+    /*** For Webkit ***/
+    ::-webkit-selection {
+        background-color: rgb(253, 213, 240);
+        color: rgb(253, 213, 240);
+    }

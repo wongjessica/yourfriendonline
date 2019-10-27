@@ -18,7 +18,7 @@ We're proud that we were able to cover three distinct sets of features within 36
 ## What we learned <br>
 We learned specific functions on JavaScript and how to deploy to Google Cloud App Engine.
 
-# #What's next for yourfriend.online <br>
+## What's next for yourfriend.online <br>
 We would love to transfer this feature to a Facebook Messenger bot!
 
 ## Try it: <br>

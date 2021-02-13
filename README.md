@@ -22,4 +22,8 @@ We learned specific functions on JavaScript and how to deploy to Google Cloud Ap
 We would love to transfer this feature to a Facebook Messenger bot!
 
 ## Try it: <br>
-https://www.yourfriend.online
+~~https://www.yourfriend.online~~
+The domain expired.
+New steps:
+1. Clone the repository
+2. Open index.html
